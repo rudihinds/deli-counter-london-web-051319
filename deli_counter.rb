@@ -16,9 +16,9 @@ end
 end
 
 function takeANumber(katz_deli, name) {
-  
+  number = 
 	katzDeliLine.push(++i)
-	return "Welcome NAME, you are number NUMBER IN LINE ";
+	PUTS "Welcome, NAME. You are number NUMBER in line.";
 	
 }
 
