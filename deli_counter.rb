@@ -1,5 +1,5 @@
 # aDeli = ["Logan", "Avi", "Spencer"]
-# katz_deli = ["Logan", "Avi", "Spencer"] 
+# katz_deli = [] 
 
 
 def line(q)
