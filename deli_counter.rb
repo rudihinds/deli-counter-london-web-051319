@@ -5,7 +5,7 @@
 def line(q)
   katz_deli = []
   position = 0
-  if q.size === 0
+  if q == []
     return "The line is currently empty."
   else q.each do | person |
     position += 1
