@@ -1,7 +1,7 @@
 # aDeli = ["Logan", "Avi", "Spencer"]
 # katz_deli = ["Logan", "Avi", "Spencer"] 
 
-newArr = []
+katz_deli = []
 def line(katz_deli)
   position = 0
   if katz_deli.size === 0
