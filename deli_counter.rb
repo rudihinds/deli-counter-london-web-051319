@@ -1,12 +1,13 @@
 # aDeli = ["Logan", "Avi", "Spencer"]
 # katz_deli = ["Logan", "Avi", "Spencer"] 
 
-katz_deli = []
-def line(katz_deli)
+
+def line(q)
+  katz_deli = []
   position = 0
-  if katz_deli.size === 0
+  if q.size === 0
     return "The line is currently empty."
-  else katz_deli.each do | person |
+  else q.each do | person |
     position += 1
     newArr.push("#{position}. #{person}")
   end
