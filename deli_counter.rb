@@ -15,29 +15,10 @@ def line(q)
 end
 end
 
-
-
-
-function currentLine(line){
-	var s = []
-	if (line.length === 0){
-		return "The line is currently empty."
-	} else {
-	for(var i = 0; i<=line.length-1; i++){
-	
-		s.push(i+1 + ". " + line[i]);
-	  } 
- return "The line is currently: " + s.join(", ")
-  }
-}
-
-
-
-
-function takeANumber(katzDeliLine) {
+function takeANumber(katz_deli, name) {
   
 	katzDeliLine.push(++i)
-	return "Welcome, you are number " + i;
+	return "Welcome NAME, you are number NUMBER IN LINE ";
 	
 }
 
@@ -54,17 +35,17 @@ function nowServing(katzDeliLine){
 }
 
 
-// LINE FUNCTION
+# // LINE FUNCTION
 
-function currentLine(line){
-	var s = []
-	if (line.length === 0){
-		return "The line is currently empty."
-	} else {
-	for(var i = 0; i<=line.length-1; i++){
+# function currentLine(line){
+# 	var s = []
+# 	if (line.length === 0){
+# 		return "The line is currently empty."
+# 	} else {
+# 	for(var i = 0; i<=line.length-1; i++){
 	
-		s.push(i+1 + ". " + line[i]);
-	  } 
- return "The line is currently: " + s.join(", ")
-  }
-}
+# 		s.push(i+1 + ". " + line[i]);
+# 	  } 
+# return "The line is currently: " + s.join(", ")
+#   }
+# }
