@@ -23,10 +23,12 @@ end
 
 // NOW SERVING
 
-def now_serving(katzDeliLine){
+def now_serving(katzDeliLine)
 	if(katzDeliLine.length === 0){
 	  return "There is nobody waiting to be served!"
+	  
 	  puts "Currently serving #{katz_deli.shift}."
+end
 
 } else {
 		return "Currently serving " + "" + katzDeliLine.shift() + ".";
