@@ -24,17 +24,12 @@ end
 // NOW SERVING
 
 def now_serving(katzDeliLine)
-	if(katzDeliLine.length === 0){
-	  return "There is nobody waiting to be served!"
-	  
+	if(katz_deli == [])
+	  puts "There is nobody waiting to be served!"
+	else
 	  puts "Currently serving #{katz_deli.shift}."
 end
-
-} else {
-		return "Currently serving " + "" + katzDeliLine.shift() + ".";
-
-  }
-}
+end
 
 
 # // LINE FUNCTION
