@@ -9,9 +9,9 @@ def line(q)
     puts "The line is currently empty."
   else q.each do | person |
     position += 1
-    katz_deli.push("#{position}. #{person} ")
+    katz_deli.push("#{position}. #{person}")
   end
-  puts "The line is currently: #{katz_deli.join()}"
+  puts "The line is currently: #{katz_deli.join(' ')}"
 end
 end
 
