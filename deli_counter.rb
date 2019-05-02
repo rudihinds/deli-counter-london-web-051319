@@ -19,9 +19,6 @@ def take_a_number(katz_deli, name)
 	katz_deli.push(name)
 	puts "Welcome, #{name}. You are number #{katz_deli.index(name)+1} in line."
 end
-	
-
-// NOW SERVING
 
 def now_serving(katz_deli)
 	if katz_deli == []
